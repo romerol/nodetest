@@ -1,0 +1,21 @@
+{
+  "name": "nodetest",
+  "version": "0.0.1",
+  "description": "nodejs test app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romerol/nodetest.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "romerol",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/romerol/nodetest/issues"
+  }
+}
