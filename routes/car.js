@@ -16,20 +16,3 @@ function getAll(req, res){
 		  })
   });
 };
-
-/*
-exports.getAll = function(req, res){
-
-	Car.getCars(function(err, cars){
-	    if (err){
-	      res.send(500, err);
-	      return;
-	    }
-
-		res.render('index', {
-		    title: 'All the cars',
-		    cars: cars
-		  })
-  });
-}
-*/
