@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+  </head>
+  <body>
+<form id="editForm" name="input" action="/cars/edit/{{_id}}" method="post" enctype="application/x-www-form-urlencoded">
+  Brand: <input type="text" id="brand" name="brand" value="{{brand}}"/>
+  Color: <input type="text" id="color" name="color" value="{{color}}"/>
+  <input type="submit" value="Edit"/>
+</form> 
+  </body>
+</html>

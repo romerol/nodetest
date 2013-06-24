@@ -6,8 +6,16 @@
   <body>
   <ul>
   {{# cars}}
-    <li>{{brand}}</li>
+  <li>{{brand}} - {{color}}
+  <form id="deleteForm" method="post" name="deleteForm" action="/cars/delete/{{_id}}" enctype="application/x-www-form-urlencoded">
+    <input name="delete" type="submit" value="Delete"/>
+  </form>  
+  <form id="updateForm" method="get" name="updateForm" action="/cars/edit/{{_id}}" enctype="application/x-www-form-urlencoded">
+    <input name="edit" type="submit" value="Edit"/>
+  </form>  
+  </li>
   {{/ cars}}
   </ul>
+  <a href="/cars/create"> Create </a>
   </body>
 </html>
