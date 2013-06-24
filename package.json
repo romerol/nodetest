@@ -4,7 +4,10 @@
   "description": "nodejs test app",
   "main": "app.js",
   "dependencies":{
-	"express":"3.2.6"
+	"express":"3.2.6",
+	"mongodb":"1.3.10",
+	"mustache":"0.7.2",
+	"consolidate":"0.9.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
